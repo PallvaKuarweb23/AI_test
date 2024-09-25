@@ -92,7 +92,7 @@ app.post('/ask', async (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3008;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`)
 });
