@@ -12,16 +12,16 @@ app.use(express.json());
 
 // Step 3: Predefined Questions and Answers
 const qaPairs = [
-    { question: "What is FlexPay?", answer: "FlexPay is a trusted partner for hundreds of the leading subscription, ecommerce and SaaS brands, reducing the pain caused by failed payments, increasing revenue and customer LTV, and decreasing customer churn." },
-    { question: "What is machine learning?", answer: "Machine learning is a subset of AI that allows machines to learn from data and improve over time without being explicitly programmed." },
-    { question: "What is deep learning?", answer: "Deep learning is a subset of machine learning that uses neural networks with many layers to analyze complex patterns in data." },
-    { question: "What is OpenAI?", answer: "OpenAI is an AI research and deployment company that develops advanced artificial intelligence models like GPT-4." },
-    { question: "What is GPT-4?", answer: "GPT-4 is a large language model developed by OpenAI, designed to generate human-like text based on input prompts." },
-    { question: "What is natural language processing?", answer: "Natural language processing (NLP) is a field of AI that focuses on the interaction between computers and humans using natural language." },
-    { question: "What is reinforcement learning?", answer: "Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties." },
-    { question: "What is supervised learning?", answer: "Supervised learning is a machine learning technique where models are trained on labeled data." },
-    { question: "What is unsupervised learning?", answer: "Unsupervised learning is a type of machine learning that finds hidden patterns or structures in data without labeled outcomes." },
-    { question: "What is a neural network?", answer: "A neural network is a computational model inspired by the human brain's network of neurons, used for tasks like classification, pattern recognition, and decision-making." },
+    { question: "What is FlexPay", answer: "FlexPay is a trusted partner for hundreds of the leading subscription, ecommerce and SaaS brands, reducing the pain caused by failed payments, increasing revenue and customer LTV, and decreasing customer churn." },
+    { question: "What is machine learning", answer: "Machine learning is a subset of AI that allows machines to learn from data and improve over time without being explicitly programmed." },
+    { question: "What is deep learning", answer: "Deep learning is a subset of machine learning that uses neural networks with many layers to analyze complex patterns in data." },
+    { question: "What is OpenAI", answer: "OpenAI is an AI research and deployment company that develops advanced artificial intelligence models like GPT-4." },
+    { question: "What is GPT-4", answer: "GPT-4 is a large language model developed by OpenAI, designed to generate human-like text based on input prompts." },
+    { question: "What is natural language processing", answer: "Natural language processing (NLP) is a field of AI that focuses on the interaction between computers and humans using natural language." },
+    { question: "What is reinforcement learning", answer: "Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties." },
+    { question: "What is supervised learning", answer: "Supervised learning is a machine learning technique where models are trained on labeled data." },
+    { question: "What is unsupervised learning", answer: "Unsupervised learning is a type of machine learning that finds hidden patterns or structures in data without labeled outcomes." },
+    { question: "What is a neural network", answer: "A neural network is a computational model inspired by the human brain's network of neurons, used for tasks like classification, pattern recognition, and decision-making." },
   ];
 
   
@@ -99,7 +99,7 @@ app.listen(PORT, () => {
 
   
 // Step 7: Example usage
-const userPrompt = "What is a neural"; // Example user input
+const userPrompt = "What is FlexPay"; // Example user input
 
 handlePrompt(userPrompt)
   .then(answer => console.log(answer))
